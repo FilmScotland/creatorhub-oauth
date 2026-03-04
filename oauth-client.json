@@ -4,7 +4,7 @@
   "client_name": "CreatorHub Desktop",
   "dpop_bound_access_tokens": true,
   "grant_types": ["authorization_code", "refresh_token"],
-  "redirect_uris": ["http://localhost:3000/callback"],
+  "redirect_uris": ["http://127.0.0.1:3000/callback"],
   "response_types": ["code"],
   "scope": "atproto"
 }

@@ -1,5 +1,5 @@
 {
-  "client_id": "https://github.com/FilmScotland/creatorhub-oauth/blob/main/oauth-client.json",
+  "client_id": "https://raw.githubusercontent.com/FilmScotland/creatorhub-oauth/main/oauth-client.json",
 
   "application_type": "native",
 

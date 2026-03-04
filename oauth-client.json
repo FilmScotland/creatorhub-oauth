@@ -1,34 +1,10 @@
 {
   "client_id": "https://raw.githubusercontent.com/FilmScotland/creatorhub-oauth/main/oauth-client.json",
-
   "application_type": "native",
-
-  "grant_types": [
-    "authorization_code",
-    "refresh_token"
-  ],
-
-  "response_types": [
-    "code"
-  ],
-
-  "redirect_uris": [
-    "http://localhost:3000/callback"
-  ],
-
-  "scope": "atproto",
-
+  "client_name": "CreatorHub Desktop",
   "dpop_bound_access_tokens": true,
-
-  "token_endpoint_auth_method": "none",
-
-  "client_name": "CreatorHub Studio",
-
-  "client_uri": "https://filmscotland.github.io/creatorhub-oauth/",
-
-  "logo_uri": "https://filmscotland.github.io/creatorhub-oauth/logo.png",
-
-  "policy_uri": "https://filmscotland.github.io/creatorhub-oauth/privacy.html",
-
-  "tos_uri": "https://filmscotland.github.io/creatorhub-oauth/terms.html"
+  "grant_types": ["authorization_code", "refresh_token"],
+  "redirect_uris": ["http://localhost:3000/callback"],
+  "response_types": ["code"],
+  "scope": "atproto"
 }
